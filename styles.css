@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: #0f103f;
+    background-color: #0d0d35;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@ header{
 
 .zitate{
     color: white;
-    font-size: var(--font-size-h1);
+    font-size: calc(20px + 1vw);
     padding: 1vh 0 1vh 0vw;
 }
 
