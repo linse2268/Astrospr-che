@@ -1,5 +1,6 @@
 :root {
-    --font-size-h1: calc(1rem + 1vw);
+    --font-size-h1: calc(10px + 1vw);
+    --font-size-hinweis: calc(0.5em + 0.5vw);
 }
 
 
@@ -12,7 +13,7 @@
 
 
 body{
-    background-color: rgb(0, 0, 27);
+    background-color: #0f103f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,9 +31,11 @@ header{
     
 }
 
-header, h1{
+.headerH1{
     color: white;
     font-size: var(--font-size-h1);
+    padding: 6vh 0 6vh 0vw;
+    text-decoration: underline;
 }
 
 #content{
@@ -45,14 +48,14 @@ header, h1{
     text-align: center;
 }
 
-#zitate{
+.zitate{
     color: white;
     font-size: var(--font-size-h1);
     padding: 1vh 0 1vh 0vw;
 }
 
-details{
+
+.hinweis{
     color: white;
-    width: 50vw;
-    font-size: 3em;
+    font-size: var(--font-size-hinweis);
 }
